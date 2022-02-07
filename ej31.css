@@ -1,0 +1,136 @@
+body{
+    font-family: MajritTxRoman,serif;
+    margin: 0px;
+    height: 100%;
+}
+#menu-content{
+    margin: 0;
+    padding: 30px;
+    background-color: aqua;
+    background-image: linear-gradient(aqua,rgb(0, 68, 95));
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+#menu-border{
+    padding: 10px;
+}
+nav ul{
+    list-style-type: none;
+    display:inline-flex;
+    margin: 10px;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+.enlaces{
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 2px white solid ;    
+}
+.enlaces:last-child{
+    border: none;
+}
+a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: 900;
+}
+.imagenes{
+    margin: auto;
+    display: block;
+}
+#logo{
+    padding: 10px;
+    width: 500px;
+}
+#introduccion img{
+    width: 95%;
+}
+#contenido{
+    margin: 20px;
+}
+.articulo-titulos{
+    display: inline;
+    width: 60%;
+    text-align:center;
+    font-family:Cambria, Cochin;
+}
+.articulo-titulos h1{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight:900px;
+    padding-bottom: 0;
+    border-bottom: 2px black solid;
+}
+.articulo-titulos h2{
+    font-size: 30px;
+    font-weight: 500px;
+}
+p{
+    font-size: 1.5625rem;
+    width: 60%;
+    line-height: 30px;
+    text-align: center;
+}
+#introduccion p{
+    display: inline-flex;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 90%;
+}
+#introduccion img{
+    width: 95%;
+    height: auto;
+}
+#aside-content{
+    float: right;
+    width: 30%;
+    margin: 30px;
+}
+#aside-content h3{
+    margin-bottom: 0;
+    border-bottom: solid black 3px;
+}
+#aside-content li{
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-bottom: black solid 1px;
+    padding-bottom: 10px;
+}
+#aside-content a{
+    color: black;
+    font-weight: normal;
+    line-height: 20px;
+}
+#article-content{
+    width: 65%;
+    padding: 20px;
+}
+#article-content p {
+    width: 100%;
+}
+.autor{
+    text-align: center;
+}
+.footer-content{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.footer-content h3{
+    font-family:  MarcinAntB, sans-serif;
+    font-weight: 800px;
+    font-size: medium;
+}
+.footer-content a{
+    color: rgb(53, 53, 53);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#article-content iframe{
+    width:800px; 
+    height: 450px;
+    display:block;
+    margin: auto; 
+    box-shadow: 15px 8px 0 1px tomato;
+}
